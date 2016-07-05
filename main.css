@@ -514,6 +514,16 @@ box-shadow: 1px 1px 3px #888;
 height: 95px;
 }
 
+#lib{
+	bottom:-5px;
+	font-size:40px;
+	left:-125px;
+}
+
+#back{
+	bottom:20px;
+}
+
 /*  							---images_used---
 
 				1.jelly.png, 2.newjs.jpg, 3.html.jpg, 4.angular.jpg
