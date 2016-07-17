@@ -223,7 +223,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
 
 #p_1{
 	position:absolute;
-	top:1000px;
+	top:350px;
 	font-size:40px;
 	left:660px;
 	text-align: center;
@@ -243,7 +243,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
 
 #p_2{
 	position:absolute;
-	top:1000px;
+	top:350px;
 	font-size:40px;
 	left:300px;
 	text-align: center;
@@ -263,7 +263,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
 
 #p_3{
 	position:absolute;
-	top:1200px;
+	top:700px;
 	font-size:40px;
 	left:300px;
 	text-align: center;
@@ -283,7 +283,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
 
 #p_4{
 	position:absolute;
-	top:1200px;
+	top:700px;
 	font-size:40px;
 	left:660px;
 	text-align: center;
@@ -514,6 +514,42 @@ box-shadow: 1px 1px 3px #888;
 height: 95px;
 }
 
+#vidS{
+	position:absolute;
+	left:750px;
+	top:80px;
+	width:330px;
+	height:300px;
+}
+
+#vidR{
+	position:absolute;
+	left:350px;
+	top:80px;
+	width:330px;
+	height:300px;
+}
+
+#vidE{
+	position:absolute;
+	left:750px;
+	top:420px;
+	width:330px;
+	height:300px;
+}
+
+#vidP{
+	position:absolute;
+	left:350px;
+	top:420px;
+	width:330px;
+	height:300px;
+}
+video{
+		border-radius: 18px;
+	-webkit-border-radius: 12px;
+/*	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+*/}
 /*  							---images_used---
 
 				1.jelly.png, 2.newjs.jpg, 3.html.jpg, 4.angular.jpg
