@@ -1,5 +1,5 @@
 html { 
-  background: url(static/jelly.png) no-repeat center center fixed; 
+  background: url(./jelly.png) no-repeat center center fixed; 
     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -31,26 +31,35 @@ i{
   -webkit-filter:blur(2px);
 }
 
+#sound:hover {
+  font-size:55px;
+  border-radius:20px;
+  -webkit-filter:blur(2px);
+}
+
 #git{
 	left:220px;
 	top:100px;
+	box-shadow:none;
 }
 
 #in{
 	left:220px;
-	top:150px;
+	top:155px;
+	box-shadow:none;
 }
 
 #sound{
-	left:183px;
-	bottom:490px;
+	left:218px;
+	bottom:3180px;
 	font-size:50px;
-	z-index:9999;
+	box-shadow:none;
 }
 
 #stories{
 	left:220px;
-	top:250px; 
+	top:215px; 
+	box-shadow:none;
 }
 
 #name{
@@ -63,14 +72,9 @@ i{
 	color:white;
 }
 
-#apps{
-	left:220px;
-	top:200px;
-}
-
 #about_i{
 	left:220px;
-	top:300px;
+	top:275px;
 	height:0px;
 	color:white;
 }
@@ -110,7 +114,7 @@ img{
 	background:url(static/html.jpg) no-repeat;
 	background-size:200px 200px;
 	background-position: center;
-	top:2175px;
+	top:1375px;
 }
 
 #stop_gap{
@@ -120,12 +124,12 @@ img{
 	font-size:55px;
 	color:white;
 	position:absolute;
-	top:1750px;
+	top:920px;
 }
 
 #table_2{
 		position:absolute;
-	top:1950px;
+	top:1150px;
 	font-size:40px;
 	left:300px;
 	font-family: 'Lato', sans-serif;
@@ -142,7 +146,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
 
 #table_3{
 		position:absolute;
-	top:1950px;
+	top:1150px;
 	font-size:40px;
 	left:520px;
 	font-family: 'Lato', sans-serif;
@@ -160,7 +164,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
 
 #table_4{
 		position:absolute;
-	top:1950px;
+	top:1150px;
 	font-size:40px;
 	left:740px;
 	font-family: 'Lato', sans-serif;
@@ -178,7 +182,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
 
 #table_5{
 		position:absolute;
-	top:2175px;
+	top:1375px;
 	font-size:40px;
 	left:520px;
 	font-family: 'Lato', sans-serif;
@@ -196,7 +200,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
 
 #table_6{
 		position:absolute;
-	top:2175px;
+	top:1375px;
 	font-size:40px;
 	left:740px;
 	font-family: 'Lato', sans-serif;
@@ -408,7 +412,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 #stop_gap_3{
 	position:absolute;
 	font-family: 'Lato', sans-serif;
-	top:2800px;
+	top:1650px;
 	padding:80px;
 	font-size:55px;
 	text-shadow:3px 5px 8px black;
@@ -435,7 +439,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 #pa_2{
 	position:absolute;
-	top:3100px;
+	top:2000px;
 	width:260px;
 	border-radius:5px;
 	height:380px;
@@ -461,6 +465,7 @@ img{
 	width:350px;
 	height:265px;
 	border-radius: 3px;
+	bottom:1100px;
 	position:relative;
 
 }
@@ -529,7 +534,7 @@ height: 95px;
 #vidS{
 	position:absolute;
 	left:750px;
-	top:80px;
+	top:150px;
 	width:330px;
 	height:300px;
 }
@@ -537,31 +542,34 @@ height: 95px;
 #vidR{
 	position:absolute;
 	left:350px;
-	top:80px;
+	top:150px;
 	width:330px;
-	height:300px;
+	height:350px;
 }
 
 #vidE{
 	position:absolute;
 	left:750px;
-	top:420px;
-	width:330px;
-	height:300px;
+	top:480px;
+	width:320px;
+	height:250px;
 }
 
 #vidP{
 	position:absolute;
 	left:350px;
-	top:420px;
+	top:480px;
 	width:330px;
 	height:300px;
 }
-video{
+video, #vidR, #vidS, #vidE, #vidP{
 		border-radius: 18px;
 	-webkit-border-radius: 12px;
-/*	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-*/}
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+	width:300px;
+	height:190px;
+
+}
 /*  							---images_used---
 
 				1.jelly.png, 2.newjs.jpg, 3.html.jpg, 4.angular.jpg
