@@ -976,5 +976,15 @@ height: 95px;
 #txt_2{
 	opacity:0;
 }
+
+#name{
+	position:absolute;
+	font-family: 'Lato', sans-serif;
+	top:9px;
+	font-size:55px;
+	text-shadow:3px 5px 8px black;
+	left:394px;
+	color:white;
+}
 }
 
