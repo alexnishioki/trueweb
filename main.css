@@ -979,12 +979,17 @@ height: 95px;
 
 #name{
 	position:absolute;
+	display:inline;
 	font-family: 'Lato', sans-serif;
 	top:9px;
 	font-size:55px;
 	text-shadow:3px 5px 8px black;
-	left:394px;
+	padding-left:294px;
 	color:white;
+}
+
+#mobile{
+	margin-left:43px;
 }
 }
 
